@@ -1,13 +1,11 @@
-
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    
         <title>Tip Calculator</title>
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-         <style >
+         <style>
            body{
             background-image: url('./maroon.webp');
            }
@@ -20,18 +18,21 @@
         <div id="container" class="container">
         
          
-              <div class="card  mt-5 mx-auto" style="width:18rem;">
+              <div class="card  mt-3 mx-auto" style="width:18rem;">
                 <div class="card-body" style="background-color:black;";>
+
+      
+
                  <h2 style="text-align:center; color: white;" >Shelton's Tip Calculator</h2>
 
             <div id="calculator">
                 <form>
                     <label class="form-label" >
                       
-                       <p style="color:white;" >How much was your bill?<br> RS/-</p><!-- <br> -->
+                       <p style="color:white;" >How much was your bill?<br> RS/-</p>
                      
                         <input type="text" class="form-control" id="billAmount">
-                    </label><br>
+                    </label><br><br>
                     <label>
                        <p style="color:white;"> How was your service?</p>
                         <select id="serviceQuality" class="form-select">
@@ -43,7 +44,7 @@
                             <option value="0.1">10% - Bad</option>
                             <option value="0.05">5%  - Terrible</option>
                         </select>
-                    </label><br>
+                    </label><br><br>
                     <label class="form-label">
                         <p style="color:white;">How many people are sharing the bill?</p>
                         <input type="text" class="form-control" id="totalPeople"> people
@@ -63,13 +64,13 @@
                 </div>
               </div>
            </div>    
-        </div> 
-     
+        </div>
 
 
 
         <script type="text/javascript" src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+       
     </body>
 
 </html>
